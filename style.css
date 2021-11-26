@@ -1,0 +1,266 @@
+/* ITN264-2W1 Web App Development
+Cristian Camilo Silva Padilla
+Final Project Webpage*/
+
+*{
+    margin:  0 0;
+    padding: 0 0;
+    font-family: 'Candara';
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-rigth{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: #273c75
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: black;
+    text-decoration: #273c75;
+    
+}
+
+a:hover{
+    color: #2d54c0;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: #273c75;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: #2d54c0;
+
+}
+
+h1{
+    padding: 30%;
+    font-size: 3rem;
+    color: #273c75
+    
+}
+h2{
+    color: #273c75;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5srm;
+    color: #273c75
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+
+
+
+
+/* CSS Navbar */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.menu{
+    line-height: 50px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.title-left{
+    display: inline;
+}
+
+/* CSS Food Search */
+
+.food-search{
+    background-image: url(../images/Hispafood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size:  1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* CSS Categories */
+
+.caregories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* CSS Food Menu*/
+.food-menu{
+    background-color: #c23616;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 1.5%;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+    padding: 1%;
+    
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #353b48;
+}
+
+/* CSS Social */
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+.img1{
+    display: inline;
+    width: 3%;
+    float: center;
+}
+
+.footer ul{
+    list-style-type: none
+}
+
+/* CCS for Mobile Devices */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    .h2{
+        margin-bottom: 10% auto;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% auto;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+
+    .container i h1{
+        font-size: 1.5rem;
+    }
+}
